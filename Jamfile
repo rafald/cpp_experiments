@@ -2,5 +2,5 @@ project :
  requirements <cxxflags>"-std=c++1z " # -Wno-c++11-extensions 
 ;
 
-compile-fail test_friend_scope.cpp ;
+compile-fail test_friend_scope-failure.cpp ;
 run test_friend_scope-additional_declaration_required.cpp ;
