@@ -4,3 +4,7 @@ project :
 
 compile-fail test_friend_scope-failure.cpp ;
 run test_friend_scope-additional_declaration_required.cpp ;
+
+run typedef_in_decl.cpp ;
+
+#compile ACCU_17_detect.h ;
